@@ -1,0 +1,25 @@
+# Starter Kit
+
+## Docs
+
+- [AWS Setup](https://docs.raven.io/aws-setup.md): AWS resources provisioning for deploying "Raven"
+- [Azure Setup](https://docs.raven.io/azure-setup.md): Azure resources provisioning for deploying "Raven"
+- [CI Integration with Raven Platform](https://docs.raven.io/ci-integration/ci-integrations.md): Guide to integrating CI with Raven platform
+- [ArgoCD Example Deployment](https://docs.raven.io/essentials/argocd-example-deployment.md): Reusable, custom snippets to keep content in sync
+- [ClickHouse setup](https://docs.raven.io/essentials/clickhouse-setup.md): Guide to setting up ClickHouse for Raven platform
+- [Docker Login](https://docs.raven.io/essentials/docker-login.md): Guide to install and login to Docker
+- [HELM login](https://docs.raven.io/essentials/helm-login.md): Guide to install and login to Helm.
+- [Microservices IAM Setup](https://docs.raven.io/essentials/microservices-iam-setup.md): Guide to setup IAM roles for microservices
+- [Secrets Management](https://docs.raven.io/essentials/secrets-management.md): Guide to managing secrets in Raven Helm charts
+- [GCP Setup](https://docs.raven.io/gcp-setup.md): GCP resources provisioning for deploying "Raven"
+- [Helm installation](https://docs.raven.io/helm-installation.md)
+- [Raven Self Hosted Guide](https://docs.raven.io/introduction.md): Welcome to the Raven platform deployment guide
+- [Kubernetes Cluster Name](https://docs.raven.io/sensor-setup/cluster-name.md): Setting Kubernetes Cluster Name instructions
+- [Get Started](https://docs.raven.io/sensor-setup/introduction.md): Deploy Raven Sensor
+- [Uninstalling Raven Operator](https://docs.raven.io/sensor-setup/uninstall.md): Uninstalling Raven Operator
+
+## Optional
+
+- [Documentation](https://docs.raven.io)
+- [ArtifactHUB](https://artifacthub.io/packages/helm/raven-operator/raven-operator)
+- [Blog](https://raven.io/blog)

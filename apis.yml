@@ -1,8 +1,30 @@
 aid: raven
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raven.png
 name: Raven
-description: 'Raven is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Raven is a runtime security platform that protects applications from the
+  inside, detecting and preventing malicious code execution as it happens rather
+  than relying only on perimeter defenses. Its capabilities span Runtime
+  Prevention (blocking exploit execution regardless of CVE availability), Runtime
+  ADR (application-level attack detection and response with forensics), Runtime
+  AI-Agents (discovering and monitoring AI agents in an environment), Runtime SCA
+  (prioritizing vulnerable dependencies by actual execution), and Runtime
+  Gatekeeper (keeping risky applications out of production). The platform is
+  self-hosted on Kubernetes, deployed via Helm/OCI charts and a sensor operator
+  across AWS, Azure, and GCP, and is positioned as an application-level
+  alternative to WAF, EDR, RASP, SCA, and ASPM tools. Raven is a portfolio
+  company of Norwest Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/raven/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Security
+- Application Security
+- Runtime Security
+- Cybersecurity
+- Cloud Security
+- Kubernetes
+- Vulnerability Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://raven.io
+- type: Documentation
+  url: https://docs.raven.io
+- type: Blog
+  url: https://raven.io/blog
+- type: Pricing
+  url: https://raven.io/pricing
+- type: TermsOfService
+  url: https://raven.io/terms-of-services
+- type: PrivacyPolicy
+  url: https://raven.io/privacy-policy
+- type: LLMsTxt
+  url: llms/raven-llms.txt
+- type: Packages
+  url: packages/raven-packages.yml
+- type: DomainSecurity
+  url: security/raven-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

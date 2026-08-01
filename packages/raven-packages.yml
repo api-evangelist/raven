@@ -1,0 +1,27 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.raven.io/llms.txt
+notes: >-
+  Raven ships no public client SDKs (no npm/PyPI/etc. libraries). It is a
+  self-hosted runtime-security platform distributed as Helm/OCI charts and a
+  Kubernetes operator. These are deployment packages, not client SDKs, so no
+  `SDKs` pointer is emitted.
+packages:
+  - language: helm
+    registry: artifacthub
+    name: raven-operator
+    url: https://artifacthub.io/packages/helm/raven-operator/raven-operator
+    version: 0.21.0
+    official: true
+    kind: helm-chart
+    description: Raven Operator Helm chart (Kubernetes runtime-security sensor/operator).
+  - language: helm
+    registry: oci
+    name: raven-platform
+    url: oci://releases.cloud.raven.io/self-hosted/raven-platform
+    official: true
+    kind: helm-chart
+    install: |
+      helm registry login releases.cloud.raven.io
+      helm install raven-platform oci://releases.cloud.raven.io/self-hosted/raven-platform --namespace <your-namespace> -f <config.yaml>
+    description: Self-hosted Raven platform Helm chart, distributed via OCI registry (requires authenticated login).
