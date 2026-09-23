@@ -1,0 +1,32 @@
+# Front Door AI Index — raven — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: raven
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: raven.io
+  final_host: raven.io
+  ownership: own
+  owner: raven
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 21
+  host_score: 21
+  density: 17.51
+  words: 1199
+  tiers:
+    agentic: 1
+    core: 15
+    model: 5
+  ambiguous: 4
+  top_terms:
+    AI: 14
+    agent: 4
+    Hugging Face: 2
+    AI agent: 1
+    ChatGPT: 1
+    Claude: 1
+    ML: 1
+    OpenAI: 1
